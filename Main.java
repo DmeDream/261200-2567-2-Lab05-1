@@ -4,7 +4,6 @@ public class Main {
         john.displayInfo();
         Admin nicolas = new Admin("nicolas",1964,1,7);
         nicolas.displayInfo(true);
-        Admin chaem = new Admin("chaem",1998,7,5);
-        chaem.displayInfo(false);
+        nicolas.displayInfo(false);
     }
 }
